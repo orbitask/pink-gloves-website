@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import PromoBadge from './components/PromoBadge';
 import Services from './components/Services';
 import TelegramButton from './components/TelegramButton';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -20,6 +21,7 @@ function App() {
       <Footer />
       <TelegramButton />
       <WhatsAppButton />
+      <PromoBadge />
     </div>
   );
 }

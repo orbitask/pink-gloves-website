@@ -55,7 +55,7 @@ function Contact() {
             };
 
             // Send the data to the Zapier webhook
-            const response = await fetch('https://hooks.zapier.com/hooks/catch/776190/2ngwoz2/', {
+            const response = await fetch('https://orbitask.app.n8n.cloud/webhook-test/98a6d60f-04e0-4d6d-9355-30e2da6ac423', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'text/plain',
@@ -124,7 +124,7 @@ function Contact() {
                             </div>
                             <div>
                                 <h4>Email</h4>
-                                <p>info@pinkglovescleaning.com</p>
+                                <p><a href="mailto:info@pinkglovesfl.com">info@pinkglovesfl.com</a></p>
                             </div>
                         </div>
                         <div className="contact-item">
@@ -133,8 +133,7 @@ function Contact() {
                             </div>
                             <div>
                                 <h4>Hours</h4>
-                                <p>Monday - Saturday: 8:00 AM - 6:00 PM</p>
-                                <p>Sunday: Closed</p>
+                                <p>Monday - Sunday: 6:00 AM - 8:00 PM</p>
                             </div>
                         </div>
                     </div>
@@ -250,7 +249,7 @@ function Contact() {
                                     style={{ width: '100%' }}
                                     disabled={isSubmitting}
                                 >
-                                    {isSubmitting ? 'Sending...' : 'Request a Callback'}
+                                    {isSubmitting ? 'Sending...' : 'Request a Quote'}
                                 </button>
                             </form>
                         )}
